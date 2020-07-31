@@ -33,13 +33,13 @@
   });
 
   /* display basemap tiles -- see others at https://leaflet-extras.github.io/leaflet-providers/preview/ */
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attribution">CARTO</a>'
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([41.77, -72.69]).addTo(map) // EDIT latitude, longitude to re-position marker
-  .bindPopup("Insert pop-up text here"); // EDIT pop-up text message
+  L.marker([4.63, -74.09]).addTo(map) // EDIT latitude, longitude to re-position marker
+  .bindPopup("Bogotá"); // EDIT pop-up text message
 
   </script>
 </body>
